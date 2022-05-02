@@ -1,0 +1,192 @@
+body {
+    background-color: rgb(240, 249, 255);
+}
+
+.brand {
+    border-radius: 0.5rem;
+    height: 3.7rem;
+    width: 10rem;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 3%;
+}
+
+.nav-item {
+    margin: 1rem 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav-color {}
+
+.navbar-brand {
+    margin-left: 2rem;
+}
+
+.nav_item {
+    list-style: none;
+    margin: 0.5rem 1rem;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_logo {
+    height: 2rem;
+    width: 4rem;
+    border-radius: 4rem;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+}
+
+.nav_item a:hover {
+    color: darkcyan;
+}
+
+.nav_item:first-child {
+    margin-right: auto;
+}
+
+
+/* 
+
+paragraphs-------------------------------------------------
+*/
+
+.front_page_p1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: darkcyan;
+}
+
+.front_page_p2 {
+    font-family: 'Mitr', sans-serif;
+    font-size: 2rem;
+    color: darkcyan;
+}
+
+.front_page_p3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+
+/*===============================*/
+
+#front_page {
+    background-color: rgb(193, 221, 231);
+    padding: 5rem 10%;
+    background: #fdfcfd;
+    box-shadow: inset 7px 7px 6px #e8e8e8, inset -7px -7px 6px #ffffff;
+}
+
+.front_page_container {
+    background-image: url("Untitled-1.png");
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.front_page_child1 {}
+
+.front_page_cont1 {
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.front_page_child2 {
+    text-align: center;
+}
+
+.front_image {
+    height: 40rem;
+    width: 30rem;
+    border-radius: 3rem;
+}
+
+
+/*<------------------------ feature section--------------------------------> */
+
+#features {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    color: black;
+    background-color: white;
+}
+
+.front_page_features {
+    text-align: center;
+    margin: 5rem;
+}
+
+.icon_color {
+    color: rgb(240, 56, 56);
+    font-size: 6rem;
+    padding-bottom: 30px;
+    border-radius: 24px;
+}
+
+.icon_color:hover {
+    color: rgb(117, 49, 165);
+}
+
+
+/* <--------------------------testimonials-secton--------------------------> */
+
+#testimonials {
+    /* background-image: url("Untitled-1.png"); */
+    background-color: white;
+    background: #fcfdfd;
+    box-shadow: inset 7px 7px 6px #e8e8e8, inset -7px -7px 6px #f0eded;
+}
+
+.testimonial-div {}
+
+.testimonial-div-inner {
+    background-color: white;
+    padding: 4% 5% 7% 5%;
+    height: 36rem;
+    width: 33rem;
+    margin: 10% auto 10% auto;
+    text-align: center;
+    border-radius: 24px;
+    border-radius: 24px;
+    background: #ffffff;
+    box-shadow: 8px 8px 26px #dbdbdb, -8px -8px 26px #ffffff;
+}
+
+.testimonial-text {
+    font-family: 'Allerta', sans-serif;
+    font-family: 'Yesteryear', cursive;
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    color: darkcyan;
+    font-size: 200%;
+}
+
+.testimonial-img {
+    margin: 2.5rem auto 1rem auto;
+    border-radius: 1rem;
+    height: 12rem;
+    width: 16rem;
+    display: block;
+}
+
+
+/*<---------------------      ---------------->*/
+
+.creditial {
+    height: 20rem;
+    background-color: rgb(44, 43, 43);
+}
